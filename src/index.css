@@ -573,7 +573,6 @@ h1, h2, h3, h4 {
 
   .bento-card {
     padding: 1.5rem;
-    /* Subtle breathing border on mobile to compensate for lack of hover */
     animation: mobileCardPulse 4s infinite alternate;
   }
   
