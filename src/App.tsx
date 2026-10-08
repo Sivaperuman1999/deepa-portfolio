@@ -211,7 +211,11 @@ function App() {
 
             <div className="project-header" style={{ flexDirection: 'column', gap: '0.5rem' }}>
               <div className="project-title" style={{ fontSize: '1.5rem' }}>Contact</div>
-              <div className="project-role" style={{ fontSize: '1rem', color: 'var(--text-secondary)' }}>deeparesh07@gmail.com &nbsp;•&nbsp; +91 8838379439</div>
+              <div className="project-role" style={{ fontSize: '1rem', color: 'var(--text-secondary)', overflowWrap: 'break-word', wordBreak: 'break-word' }}>
+                <a href="mailto:deeparesh07@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>deeparesh07@gmail.com</a>
+                <span style={{ margin: '0 0.5rem' }}>•</span>
+                <a href="tel:+918838379439" style={{ color: 'inherit', textDecoration: 'none' }}>+91 8838379439</a>
+              </div>
             </div>
           </div>
 
