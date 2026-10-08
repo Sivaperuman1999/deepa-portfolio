@@ -19,6 +19,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -86,7 +90,6 @@ h1, h2, h3, h4 {
   gap: 6rem;
 }
 
-/* Hero Section */
 .hero-section {
   min-height: 85vh;
   display: flex;
@@ -152,7 +155,6 @@ h1, h2, h3, h4 {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Hero CTA Buttons */
 .hero-cta-group {
   display: flex;
   gap: 1.5rem;
@@ -626,5 +628,32 @@ h1, h2, h3, h4 {
   
   .project-role {
     font-size: 0.9rem !important;
+  }
+  
+  .section-heading-wrapper h2 {
+    font-size: 1.8rem;
+  }
+  
+  .section-heading-wrapper p {
+    font-size: 1rem;
+  }
+
+  .skills-container {
+    gap: 0.6rem;
+  }
+  
+  .skill-pill {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .experience-tags span, .project-tags span {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.85rem;
+  }
+  
+  .bento-card, .experience-card {
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
 }
